@@ -4267,7 +4267,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": ""
+									"value": "+ name : string = Start\n+ tokens : int = 1"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -4618,7 +4618,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": ""
+									"value": "+ name : string = End"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -5344,7 +5344,18 @@
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
-					"value": []
+					"value": [
+						{
+							"name": "name",
+							"type": "string",
+							"default": "Start"
+						},
+						{
+							"name": "tokens",
+							"type": "int",
+							"default": "1"
+						}
+					]
 				},
 				"constraints": {
 					"type": "list<$EVENT_HANDLER>",
@@ -5371,7 +5382,13 @@
 				},
 				"attributes": {
 					"type": "list<$ATTRIBUTE>",
-					"value": []
+					"value": [
+						{
+							"name": "name",
+							"type": "string",
+							"default": "End"
+						}
+					]
 				},
 				"constraints": {
 					"type": "list<$EVENT_HANDLER>",

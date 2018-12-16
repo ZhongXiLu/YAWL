@@ -67,19 +67,19 @@
 			{
 				"name": "name",
 				"type": "string",
-				"default": "C"
+				"default": "Start"
 			},
 			{
 				"name": "tokens",
 				"type": "int",
-				"default": "0"
+				"default": "1"
 			}
 		],
 		"EndCondition": [
 			{
 				"name": "name",
 				"type": "string",
-				"default": "C"
+				"default": "End"
 			},
 			{
 				"name": "tokens",
