@@ -1,0 +1,541 @@
+{
+	"types": {
+		"Task": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "T"
+			}
+		],
+		"Condition": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "C"
+			},
+			{
+				"name": "tokens",
+				"type": "int",
+				"default": "0"
+			}
+		],
+		"TaskToCondition": [],
+		"ConditionToTask": [],
+		"XorJoinTask": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "T"
+			}
+		],
+		"AndJoinTask": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "T"
+			}
+		],
+		"OrJoinTask": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "T"
+			}
+		],
+		"XorSplitTask": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "T"
+			}
+		],
+		"AndSplitTask": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "T"
+			}
+		],
+		"OrSplitTask": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "T"
+			}
+		],
+		"StartCondition": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "C"
+			},
+			{
+				"name": "tokens",
+				"type": "int",
+				"default": "0"
+			}
+		],
+		"EndCondition": [
+			{
+				"name": "name",
+				"type": "string",
+				"default": "C"
+			},
+			{
+				"name": "tokens",
+				"type": "int",
+				"default": "0"
+			}
+		]
+	},
+	"constraints": [],
+	"actions": [],
+	"cardinalities": {
+		"Task": [
+			{
+				"dir": "out",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"Condition": [
+			{
+				"dir": "in",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"TaskToCondition": [
+			{
+				"dir": "in",
+				"type": "Task",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Condition",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "XorJoinTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "AndJoinTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "OrJoinTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "XorSplitTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "AndSplitTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "OrSplitTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "StartCondition",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "EndCondition",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"ConditionToTask": [
+			{
+				"dir": "in",
+				"type": "Condition",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "Task",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "XorJoinTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "AndJoinTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "OrJoinTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "XorSplitTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "AndSplitTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "OrSplitTask",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "StartCondition",
+				"min": "0",
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "EndCondition",
+				"min": "0",
+				"max": "1"
+			}
+		],
+		"XorJoinTask": [
+			{
+				"dir": "out",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"AndJoinTask": [
+			{
+				"dir": "out",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"OrJoinTask": [
+			{
+				"dir": "out",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"XorSplitTask": [
+			{
+				"dir": "out",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"AndSplitTask": [
+			{
+				"dir": "out",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"OrSplitTask": [
+			{
+				"dir": "out",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "in",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"StartCondition": [
+			{
+				"dir": "in",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		],
+		"EndCondition": [
+			{
+				"dir": "in",
+				"type": "TaskToCondition",
+				"min": "0",
+				"max": "Infinity"
+			},
+			{
+				"dir": "out",
+				"type": "ConditionToTask",
+				"min": "0",
+				"max": "Infinity"
+			}
+		]
+	},
+	"legalConnections": {
+		"Task": {
+			"Condition": [
+				"TaskToCondition"
+			],
+			"StartCondition": [
+				"TaskToCondition"
+			],
+			"EndCondition": [
+				"TaskToCondition"
+			]
+		},
+		"Condition": {
+			"Task": [
+				"ConditionToTask"
+			],
+			"XorJoinTask": [
+				"ConditionToTask"
+			],
+			"AndJoinTask": [
+				"ConditionToTask"
+			],
+			"OrJoinTask": [
+				"ConditionToTask"
+			],
+			"XorSplitTask": [
+				"ConditionToTask"
+			],
+			"AndSplitTask": [
+				"ConditionToTask"
+			],
+			"OrSplitTask": [
+				"ConditionToTask"
+			]
+		},
+		"XorJoinTask": {
+			"Condition": [
+				"TaskToCondition"
+			],
+			"StartCondition": [
+				"TaskToCondition"
+			],
+			"EndCondition": [
+				"TaskToCondition"
+			]
+		},
+		"AndJoinTask": {
+			"Condition": [
+				"TaskToCondition"
+			],
+			"StartCondition": [
+				"TaskToCondition"
+			],
+			"EndCondition": [
+				"TaskToCondition"
+			]
+		},
+		"OrJoinTask": {
+			"Condition": [
+				"TaskToCondition"
+			],
+			"StartCondition": [
+				"TaskToCondition"
+			],
+			"EndCondition": [
+				"TaskToCondition"
+			]
+		},
+		"XorSplitTask": {
+			"Condition": [
+				"TaskToCondition"
+			],
+			"StartCondition": [
+				"TaskToCondition"
+			],
+			"EndCondition": [
+				"TaskToCondition"
+			]
+		},
+		"AndSplitTask": {
+			"Condition": [
+				"TaskToCondition"
+			],
+			"StartCondition": [
+				"TaskToCondition"
+			],
+			"EndCondition": [
+				"TaskToCondition"
+			]
+		},
+		"OrSplitTask": {
+			"Condition": [
+				"TaskToCondition"
+			],
+			"StartCondition": [
+				"TaskToCondition"
+			],
+			"EndCondition": [
+				"TaskToCondition"
+			]
+		},
+		"StartCondition": {
+			"Task": [
+				"ConditionToTask"
+			],
+			"XorJoinTask": [
+				"ConditionToTask"
+			],
+			"AndJoinTask": [
+				"ConditionToTask"
+			],
+			"OrJoinTask": [
+				"ConditionToTask"
+			],
+			"XorSplitTask": [
+				"ConditionToTask"
+			],
+			"AndSplitTask": [
+				"ConditionToTask"
+			],
+			"OrSplitTask": [
+				"ConditionToTask"
+			]
+		},
+		"EndCondition": {
+			"Task": [
+				"ConditionToTask"
+			],
+			"XorJoinTask": [
+				"ConditionToTask"
+			],
+			"AndJoinTask": [
+				"ConditionToTask"
+			],
+			"OrJoinTask": [
+				"ConditionToTask"
+			],
+			"XorSplitTask": [
+				"ConditionToTask"
+			],
+			"AndSplitTask": [
+				"ConditionToTask"
+			],
+			"OrSplitTask": [
+				"ConditionToTask"
+			]
+		}
+	},
+	"connectorTypes": {
+		"TaskToCondition": "visual",
+		"ConditionToTask": "visual"
+	},
+	"types2parentTypes": {
+		"Task": [],
+		"Condition": [],
+		"TaskToCondition": [],
+		"ConditionToTask": [],
+		"XorJoinTask": [
+			"Task"
+		],
+		"AndJoinTask": [
+			"Task"
+		],
+		"OrJoinTask": [
+			"Task"
+		],
+		"XorSplitTask": [
+			"Task"
+		],
+		"AndSplitTask": [
+			"Task"
+		],
+		"OrSplitTask": [
+			"Task"
+		],
+		"StartCondition": [
+			"Condition"
+		],
+		"EndCondition": [
+			"Condition"
+		]
+	}
+}
