@@ -1,0 +1,9 @@
+
+*.autosave.*
+
+metadepth.dsls
+metadepth.properties
+
+*.log
+*.out
+*.aux
