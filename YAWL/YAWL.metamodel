@@ -9,7 +9,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"Condition": [
@@ -26,7 +26,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"TaskToCondition": [],
@@ -40,7 +40,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"AndJoinTask": [
@@ -52,7 +52,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"OrJoinTask": [
@@ -64,7 +64,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"XorSplitTask": [
@@ -76,7 +76,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"AndSplitTask": [
@@ -88,7 +88,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"OrSplitTask": [
@@ -100,7 +100,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"StartCondition": [
@@ -117,7 +117,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"EndCondition": [
@@ -134,7 +134,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"Join": [
@@ -146,7 +146,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"Split": [
@@ -158,7 +158,7 @@
 			{
 				"name": "hightlight",
 				"type": "boolean",
-				"default": "false"
+				"default": false
 			}
 		],
 		"TaskToTask": []

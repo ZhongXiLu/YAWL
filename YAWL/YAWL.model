@@ -183,7 +183,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string = T\n+ hightlight : boolean = false"
+									"value": "+ name : string = T\n+ hightlight : boolean"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -534,7 +534,7 @@
 							"99": {
 								"textContent": {
 									"type": "string",
-									"value": "+ name : string = C\n+ tokens : int = 0\n+ hightlight : boolean = false"
+									"value": "+ name : string = C\n+ tokens : int = 0\n+ hightlight : boolean"
 								},
 								"style": {
 									"type": "map<string,string>",
@@ -6837,7 +6837,7 @@
 						{
 							"name": "hightlight",
 							"type": "boolean",
-							"default": "false"
+							"default": false
 						}
 					]
 				},
@@ -6893,7 +6893,7 @@
 						{
 							"name": "hightlight",
 							"type": "boolean",
-							"default": "false"
+							"default": false
 						}
 					]
 				},
