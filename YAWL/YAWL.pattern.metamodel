@@ -25,6 +25,11 @@
 				"name": "name",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pCondition": [
@@ -55,6 +60,11 @@
 			},
 			{
 				"name": "tokens",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -128,6 +138,11 @@
 				"name": "name",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pAndJoinTask": [
@@ -153,6 +168,11 @@
 			},
 			{
 				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -182,6 +202,11 @@
 				"name": "name",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pXorSplitTask": [
@@ -207,6 +232,11 @@
 			},
 			{
 				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -236,6 +266,11 @@
 				"name": "name",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pOrSplitTask": [
@@ -261,6 +296,11 @@
 			},
 			{
 				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -295,6 +335,11 @@
 				"name": "tokens",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pEndCondition": [
@@ -327,6 +372,11 @@
 				"name": "tokens",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pJoin": [
@@ -354,6 +404,11 @@
 				"name": "name",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
 		],
 		"__pSplit": [
@@ -379,6 +434,11 @@
 			},
 			{
 				"name": "name",
+				"type": "code",
+				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
+			},
+			{
+				"name": "hightlight",
 				"type": "code",
 				"default": "\"[PYTHON]\"\n\"Example:\t result = True\"\n\"Example:\t result = getAttr()\"\n\n\"[JAVASCRIPT]\"\n\"Example:\t true\"\n\"Example:\t getAttr()\""
 			}
@@ -431,6 +491,18 @@
 	"cardinalities": {
 		"__pTask": [
 			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
 				"dir": "out",
 				"type": "__pTaskToCondition",
 				"min": 0,
@@ -439,18 +511,6 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
@@ -619,6 +679,18 @@
 		],
 		"__pXorJoinTask": [
 			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "inf"
+			},
+			{
+				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
 				"dir": "out",
 				"type": "__pTaskToCondition",
 				"min": 0,
@@ -627,24 +699,24 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
 		],
 		"__pAndJoinTask": [
 			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "inf"
+			},
+			{
+				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
 				"dir": "out",
 				"type": "__pTaskToCondition",
 				"min": 0,
@@ -653,24 +725,24 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
 		],
 		"__pOrJoinTask": [
 			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "inf"
+			},
+			{
+				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
 				"dir": "out",
 				"type": "__pTaskToCondition",
 				"min": 0,
@@ -679,18 +751,6 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
@@ -698,6 +758,18 @@
 		"__pXorSplitTask": [
 			{
 				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "inf"
+			},
+			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
 				"type": "__pTaskToCondition",
 				"min": 0,
 				"max": "Infinity"
@@ -705,18 +777,6 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
@@ -724,6 +784,18 @@
 		"__pAndSplitTask": [
 			{
 				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "inf"
+			},
+			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
 				"type": "__pTaskToCondition",
 				"min": 0,
 				"max": "Infinity"
@@ -731,18 +803,6 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
@@ -750,6 +810,18 @@
 		"__pOrSplitTask": [
 			{
 				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "inf"
+			},
+			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
 				"type": "__pTaskToCondition",
 				"min": 0,
 				"max": "Infinity"
@@ -757,18 +829,6 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
@@ -806,7 +866,13 @@
 				"dir": "in",
 				"type": "__pTaskToTask",
 				"min": 0,
-				"max": "Infinity"
+				"max": "inf"
+			},
+			{
+				"dir": "out",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
 			},
 			{
 				"dir": "out",
@@ -817,12 +883,6 @@
 			{
 				"dir": "in",
 				"type": "__pConditionToTask",
-				"min": 0,
-				"max": "Infinity"
-			},
-			{
-				"dir": "out",
-				"type": "__pTaskToTask",
 				"min": 0,
 				"max": "Infinity"
 			}
@@ -832,7 +892,13 @@
 				"dir": "out",
 				"type": "__pTaskToTask",
 				"min": 0,
-				"max": "Infinity"
+				"max": "inf"
+			},
+			{
+				"dir": "in",
+				"type": "__pTaskToTask",
+				"min": 0,
+				"max": "1"
 			},
 			{
 				"dir": "out",
@@ -845,18 +911,24 @@
 				"type": "__pConditionToTask",
 				"min": 0,
 				"max": "Infinity"
-			},
-			{
-				"dir": "in",
-				"type": "__pTaskToTask",
-				"min": 0,
-				"max": "Infinity"
 			}
 		],
 		"__pTaskToTask": [
 			{
 				"dir": "in",
-				"type": "__pTaskToTask",
+				"type": "__pTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "out",
+				"type": "__pTask",
+				"min": 0,
+				"max": "1"
+			},
+			{
+				"dir": "in",
+				"type": "__pJoin",
 				"min": 0,
 				"max": "1"
 			},
@@ -867,20 +939,8 @@
 				"max": "1"
 			},
 			{
-				"dir": "out",
-				"type": "__pTask",
-				"min": 0,
-				"max": "1"
-			},
-			{
 				"dir": "in",
-				"type": "__pTask",
-				"min": 0,
-				"max": "1"
-			},
-			{
-				"dir": "out",
-				"type": "__pJoin",
+				"type": "__pXorJoinTask",
 				"min": 0,
 				"max": "1"
 			},
@@ -892,7 +952,7 @@
 			},
 			{
 				"dir": "in",
-				"type": "__pXorJoinTask",
+				"type": "__pAndJoinTask",
 				"min": 0,
 				"max": "1"
 			},
@@ -904,7 +964,7 @@
 			},
 			{
 				"dir": "in",
-				"type": "__pAndJoinTask",
+				"type": "__pOrJoinTask",
 				"min": 0,
 				"max": "1"
 			},
@@ -916,7 +976,7 @@
 			},
 			{
 				"dir": "in",
-				"type": "__pOrJoinTask",
+				"type": "__pXorSplitTask",
 				"min": 0,
 				"max": "1"
 			},
@@ -928,7 +988,7 @@
 			},
 			{
 				"dir": "in",
-				"type": "__pXorSplitTask",
+				"type": "__pAndSplitTask",
 				"min": 0,
 				"max": "1"
 			},
@@ -940,7 +1000,7 @@
 			},
 			{
 				"dir": "in",
-				"type": "__pAndSplitTask",
+				"type": "__pOrSplitTask",
 				"min": 0,
 				"max": "1"
 			},
@@ -951,13 +1011,7 @@
 				"max": "1"
 			},
 			{
-				"dir": "in",
-				"type": "__pOrSplitTask",
-				"min": 0,
-				"max": "1"
-			},
-			{
-				"dir": "in",
+				"dir": "out",
 				"type": "__pJoin",
 				"min": 0,
 				"max": "1"
@@ -972,19 +1026,7 @@
 	},
 	"legalConnections": {
 		"__pTask": {
-			"__pCondition": [
-				"__pTaskToCondition"
-			],
-			"__pStartCondition": [
-				"__pTaskToCondition"
-			],
-			"__pEndCondition": [
-				"__pTaskToCondition"
-			],
 			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pXorJoinTask": [
@@ -1005,8 +1047,20 @@
 			"__pOrSplitTask": [
 				"__pTaskToTask"
 			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
 			"__pSplit": [
 				"__pTaskToTask"
+			],
+			"__pCondition": [
+				"__pTaskToCondition"
+			],
+			"__pStartCondition": [
+				"__pTaskToCondition"
+			],
+			"__pEndCondition": [
+				"__pTaskToCondition"
 			]
 		},
 		"__pCondition": {
@@ -1039,19 +1093,7 @@
 			]
 		},
 		"__pXorJoinTask": {
-			"__pCondition": [
-				"__pTaskToCondition"
-			],
-			"__pStartCondition": [
-				"__pTaskToCondition"
-			],
-			"__pEndCondition": [
-				"__pTaskToCondition"
-			],
 			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pXorJoinTask": [
@@ -1072,24 +1114,24 @@
 			"__pOrSplitTask": [
 				"__pTaskToTask"
 			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
 			"__pSplit": [
 				"__pTaskToTask"
+			],
+			"__pCondition": [
+				"__pTaskToCondition"
+			],
+			"__pStartCondition": [
+				"__pTaskToCondition"
+			],
+			"__pEndCondition": [
+				"__pTaskToCondition"
 			]
 		},
 		"__pAndJoinTask": {
-			"__pCondition": [
-				"__pTaskToCondition"
-			],
-			"__pStartCondition": [
-				"__pTaskToCondition"
-			],
-			"__pEndCondition": [
-				"__pTaskToCondition"
-			],
 			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pXorJoinTask": [
@@ -1110,24 +1152,24 @@
 			"__pOrSplitTask": [
 				"__pTaskToTask"
 			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
 			"__pSplit": [
 				"__pTaskToTask"
+			],
+			"__pCondition": [
+				"__pTaskToCondition"
+			],
+			"__pStartCondition": [
+				"__pTaskToCondition"
+			],
+			"__pEndCondition": [
+				"__pTaskToCondition"
 			]
 		},
 		"__pOrJoinTask": {
-			"__pCondition": [
-				"__pTaskToCondition"
-			],
-			"__pStartCondition": [
-				"__pTaskToCondition"
-			],
-			"__pEndCondition": [
-				"__pTaskToCondition"
-			],
 			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pXorJoinTask": [
@@ -1148,24 +1190,24 @@
 			"__pOrSplitTask": [
 				"__pTaskToTask"
 			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
 			"__pSplit": [
 				"__pTaskToTask"
+			],
+			"__pCondition": [
+				"__pTaskToCondition"
+			],
+			"__pStartCondition": [
+				"__pTaskToCondition"
+			],
+			"__pEndCondition": [
+				"__pTaskToCondition"
 			]
 		},
 		"__pXorSplitTask": {
-			"__pCondition": [
-				"__pTaskToCondition"
-			],
-			"__pStartCondition": [
-				"__pTaskToCondition"
-			],
-			"__pEndCondition": [
-				"__pTaskToCondition"
-			],
 			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pXorJoinTask": [
@@ -1186,24 +1228,24 @@
 			"__pOrSplitTask": [
 				"__pTaskToTask"
 			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
 			"__pSplit": [
 				"__pTaskToTask"
+			],
+			"__pCondition": [
+				"__pTaskToCondition"
+			],
+			"__pStartCondition": [
+				"__pTaskToCondition"
+			],
+			"__pEndCondition": [
+				"__pTaskToCondition"
 			]
 		},
 		"__pAndSplitTask": {
-			"__pCondition": [
-				"__pTaskToCondition"
-			],
-			"__pStartCondition": [
-				"__pTaskToCondition"
-			],
-			"__pEndCondition": [
-				"__pTaskToCondition"
-			],
 			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pXorJoinTask": [
@@ -1224,24 +1266,24 @@
 			"__pOrSplitTask": [
 				"__pTaskToTask"
 			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
 			"__pSplit": [
 				"__pTaskToTask"
+			],
+			"__pCondition": [
+				"__pTaskToCondition"
+			],
+			"__pStartCondition": [
+				"__pTaskToCondition"
+			],
+			"__pEndCondition": [
+				"__pTaskToCondition"
 			]
 		},
 		"__pOrSplitTask": {
-			"__pCondition": [
-				"__pTaskToCondition"
-			],
-			"__pStartCondition": [
-				"__pTaskToCondition"
-			],
-			"__pEndCondition": [
-				"__pTaskToCondition"
-			],
 			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pXorJoinTask": [
@@ -1262,8 +1304,20 @@
 			"__pOrSplitTask": [
 				"__pTaskToTask"
 			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
 			"__pSplit": [
 				"__pTaskToTask"
+			],
+			"__pCondition": [
+				"__pTaskToCondition"
+			],
+			"__pStartCondition": [
+				"__pTaskToCondition"
+			],
+			"__pEndCondition": [
+				"__pTaskToCondition"
 			]
 		},
 		"__pStartCondition": {
@@ -1325,6 +1379,33 @@
 			]
 		},
 		"__pJoin": {
+			"__pTask": [
+				"__pTaskToTask"
+			],
+			"__pXorJoinTask": [
+				"__pTaskToTask"
+			],
+			"__pAndJoinTask": [
+				"__pTaskToTask"
+			],
+			"__pOrJoinTask": [
+				"__pTaskToTask"
+			],
+			"__pXorSplitTask": [
+				"__pTaskToTask"
+			],
+			"__pAndSplitTask": [
+				"__pTaskToTask"
+			],
+			"__pOrSplitTask": [
+				"__pTaskToTask"
+			],
+			"__pJoin": [
+				"__pTaskToTask"
+			],
+			"__pSplit": [
+				"__pTaskToTask"
+			],
 			"__pCondition": [
 				"__pTaskToCondition"
 			],
@@ -1333,42 +1414,12 @@
 			],
 			"__pEndCondition": [
 				"__pTaskToCondition"
-			],
-			"__pTask": [
-				"__pTaskToTask"
-			],
-			"__pJoin": [
-				"__pTaskToTask"
-			],
-			"__pXorJoinTask": [
-				"__pTaskToTask"
-			],
-			"__pAndJoinTask": [
-				"__pTaskToTask"
-			],
-			"__pOrJoinTask": [
-				"__pTaskToTask"
-			],
-			"__pXorSplitTask": [
-				"__pTaskToTask"
-			],
-			"__pAndSplitTask": [
-				"__pTaskToTask"
-			],
-			"__pOrSplitTask": [
-				"__pTaskToTask"
-			],
-			"__pSplit": [
-				"__pTaskToTask"
 			]
 		},
 		"__pSplit": {
 			"__pTask": [
 				"__pTaskToTask"
 			],
-			"__pJoin": [
-				"__pTaskToTask"
-			],
 			"__pXorJoinTask": [
 				"__pTaskToTask"
 			],
@@ -1385,6 +1436,9 @@
 				"__pTaskToTask"
 			],
 			"__pOrSplitTask": [
+				"__pTaskToTask"
+			],
+			"__pJoin": [
 				"__pTaskToTask"
 			],
 			"__pSplit": [

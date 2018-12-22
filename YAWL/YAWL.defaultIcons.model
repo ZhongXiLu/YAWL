@@ -13992,8 +13992,7 @@
 		},
 		"edges": [],
 		"metamodels": [
-			"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons",
-			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram.umlIcons"
+			"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax.defaultIcons"
 		]
 	},
 	"asm": {
@@ -15464,8 +15463,7 @@
 			}
 		],
 		"metamodels": [
-			"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax",
-			"/Formalisms/__LanguageSyntax__/SimpleClassDiagram/SimpleClassDiagram"
+			"/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax"
 		]
 	}
 }

@@ -5,6 +5,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"Condition": [
@@ -17,6 +22,11 @@
 				"name": "tokens",
 				"type": "int",
 				"default": "0"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"TaskToCondition": [],
@@ -26,6 +36,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"AndJoinTask": [
@@ -33,6 +48,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"OrJoinTask": [
@@ -40,6 +60,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"XorSplitTask": [
@@ -47,6 +72,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"AndSplitTask": [
@@ -54,6 +84,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"OrSplitTask": [
@@ -61,6 +96,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"StartCondition": [
@@ -73,6 +113,11 @@
 				"name": "tokens",
 				"type": "int",
 				"default": "1"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"EndCondition": [
@@ -85,6 +130,11 @@
 				"name": "tokens",
 				"type": "int",
 				"default": "0"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"Join": [
@@ -92,6 +142,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"Split": [
@@ -99,6 +154,11 @@
 				"name": "name",
 				"type": "string",
 				"default": "T"
+			},
+			{
+				"name": "hightlight",
+				"type": "boolean",
+				"default": "false"
 			}
 		],
 		"TaskToTask": []
