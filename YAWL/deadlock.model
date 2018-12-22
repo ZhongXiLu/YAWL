@@ -995,152 +995,6 @@
 				},
 				"$type": "/Formalisms/YAWL/YAWL.defaultIcons/XorSplitTaskIcon"
 			},
-			"43": {
-				"typename": {
-					"type": "string",
-					"value": "XorJoinTaskIcon"
-				},
-				"position": {
-					"type": "list<double>",
-					"value": [
-						791,
-						346
-					]
-				},
-				"orientation": {
-					"type": "double",
-					"value": 0
-				},
-				"scale": {
-					"type": "list<double>",
-					"value": [
-						1,
-						1
-					]
-				},
-				"mapper": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-				},
-				"parser": {
-					"type": "code",
-					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-				},
-				"$contents": {
-					"type": "map<string,*>",
-					"value": {
-						"nodes": {
-							"20": {
-								"src": {
-									"type": "string",
-									"value": "/Formalisms/YAWL/yawl_icons/xor_join.png"
-								},
-								"width": {
-									"type": "double",
-									"value": 110
-								},
-								"height": {
-									"type": "double",
-									"value": 80
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#ffffff",
-										"fill-opacity": 1,
-										"font-size": "20px",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Image",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										3,
-										3
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							},
-							"50": {
-								"textContent": {
-									"type": "string",
-									"value": "T4"
-								},
-								"style": {
-									"type": "map<string,string>",
-									"value": {
-										"stroke": "#000000",
-										"stroke-dasharray": "",
-										"fill": "#000000",
-										"fill-opacity": 1,
-										"font-size": "20px",
-										"font-family": "Calibri",
-										"stroke-width": 1,
-										"arrow-start": "none",
-										"arrow-end": "none"
-									}
-								},
-								"mapper": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */\n({textContent:getAttr(\"name\")})"
-								},
-								"parser": {
-									"type": "code",
-									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
-								},
-								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
-								"position": {
-									"type": "list<double>",
-									"value": [
-										5,
-										82
-									]
-								},
-								"orientation": {
-									"type": "double",
-									"value": 0
-								},
-								"scale": {
-									"type": "list<double>",
-									"value": [
-										1,
-										1
-									]
-								}
-							}
-						},
-						"edges": []
-					}
-				},
-				"$asuri": {
-					"type": "string",
-					"value": "/Formalisms/YAWL/YAWL/XorJoinTask/43.instance"
-				},
-				"$type": "/Formalisms/YAWL/YAWL.defaultIcons/XorJoinTaskIcon"
-			},
 			"44": {
 				"link-style": {
 					"type": "map<string,string>",
@@ -1495,7 +1349,153 @@
 				},
 				"$type": "/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink"
 			},
-			"47": {
+			"50": {
+				"typename": {
+					"type": "string",
+					"value": "AndJoinTaskIcon"
+				},
+				"position": {
+					"type": "list<double>",
+					"value": [
+						772,
+						347
+					]
+				},
+				"orientation": {
+					"type": "double",
+					"value": 0
+				},
+				"scale": {
+					"type": "list<double>",
+					"value": [
+						1,
+						1
+					]
+				},
+				"mapper": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+				},
+				"parser": {
+					"type": "code",
+					"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+				},
+				"$contents": {
+					"type": "map<string,*>",
+					"value": {
+						"nodes": {
+							"24": {
+								"src": {
+									"type": "string",
+									"value": "/Formalisms/YAWL/yawl_icons/and_join.png"
+								},
+								"width": {
+									"type": "double",
+									"value": 110
+								},
+								"height": {
+									"type": "double",
+									"value": 80
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#ffffff",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Image",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										3,
+										3
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							},
+							"52": {
+								"textContent": {
+									"type": "string",
+									"value": "T4"
+								},
+								"style": {
+									"type": "map<string,string>",
+									"value": {
+										"stroke": "#000000",
+										"stroke-dasharray": "",
+										"fill": "#000000",
+										"fill-opacity": 1,
+										"font-size": "20px",
+										"font-family": "Calibri",
+										"stroke-width": 1,
+										"arrow-start": "none",
+										"arrow-end": "none"
+									}
+								},
+								"mapper": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,csattr:val,...} */\n({textContent:getAttr(\"name\")})"
+								},
+								"parser": {
+									"type": "code",
+									"value": "/* specify code that evaluates to an associative array of the form {...,attr:val,...} */"
+								},
+								"$type": "/Formalisms/__LanguageSyntax__/ConcreteSyntax/ConcreteSyntax/Text",
+								"position": {
+									"type": "list<double>",
+									"value": [
+										6,
+										79
+									]
+								},
+								"orientation": {
+									"type": "double",
+									"value": 0
+								},
+								"scale": {
+									"type": "list<double>",
+									"value": [
+										1,
+										1
+									]
+								}
+							}
+						},
+						"edges": []
+					}
+				},
+				"$asuri": {
+					"type": "string",
+					"value": "/Formalisms/YAWL/YAWL/AndJoinTask/50.instance"
+				},
+				"$type": "/Formalisms/YAWL/YAWL.defaultIcons/AndJoinTaskIcon"
+			},
+			"51": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1520,8 +1520,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						744.6431816604057,
-						355.04636358527426
+						728.5,
+						356.5
 					]
 				},
 				"orientation": {
@@ -1573,13 +1573,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;53.588804222714316,95.1366440234242%",
-										"0;13.148086407357539,30.806151398061154%"
+										"0;56.24824917971898,89.93227918843839%",
+										"0;22.902274914578754,43.72853942190123%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;17.94244708915867"
+									"value": "0;25.930806462651866"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1602,18 +1602,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/YAWL/YAWL/TaskToTask/47.instance"
+					"value": "/Formalisms/YAWL/YAWL/TaskToTask/51.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/YAWL/YAWL.defaultIcons/TaskIcon/30.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/47.instance": "M692,338L744.6431816604057,355.04636358527426",
-						"/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/47.instance--/Formalisms/YAWL/YAWL.defaultIcons/XorJoinTaskIcon/43.instance": "M744.571460724187,355.02313966307014L796.9997398271976,371.99991575356876"
+						"/Formalisms/YAWL/YAWL.defaultIcons/TaskIcon/30.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/51.instance": "M674,330L728.5,356.5",
+						"/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/51.instance--/Formalisms/YAWL/YAWL.defaultIcons/AndJoinTaskIcon/50.instance": "M728.6346771543033,356.56548522181726L782.999107602843,382.9995660821163"
 					}
 				},
 				"$type": "/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink"
 			},
-			"48": {
+			"52": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1638,8 +1638,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						740.5,
-						446
+						729.6248090633342,
+						436.91526724140607
 					]
 				},
 				"orientation": {
@@ -1691,13 +1691,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;57.55915327708965,87.4503693560081%",
-										"0;-36.49758699335291,-48.501885525180974%"
+										"0;52.12768143858341,82.73497999161712%",
+										"0;-40.22414951537701,-56.16870201265749%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;-29.013707760902413"
+									"value": "0;-34.17254689617461"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1720,18 +1720,18 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/YAWL/YAWL/TaskToTask/48.instance"
+					"value": "/Formalisms/YAWL/YAWL/TaskToTask/52.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/YAWL/YAWL.defaultIcons/TaskIcon/31.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/48.instance": "M681,479L740.5,446",
-						"/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/48.instance--/Formalisms/YAWL/YAWL.defaultIcons/XorJoinTaskIcon/43.instance": "M740.6308638768056,445.9274200347129L799.9992286980969,413.00042778088743"
+						"/Formalisms/YAWL/YAWL.defaultIcons/TaskIcon/31.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/52.instance": "M675,474L729.6248090633342,436.91526724140607",
+						"/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/52.instance--/Formalisms/YAWL/YAWL.defaultIcons/AndJoinTaskIcon/50.instance": "M729.6244279675471,436.9155259669864L783.9992385824239,400.0005169256938"
 					}
 				},
 				"$type": "/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink"
 			},
-			"49": {
+			"53": {
 				"link-style": {
 					"type": "map<string,string>",
 					"value": {
@@ -1756,8 +1756,8 @@
 				"position": {
 					"type": "list<double>",
 					"value": [
-						937,
-						394.5
+						927.6499998633974,
+						392.49628099512245
 					]
 				},
 				"orientation": {
@@ -1809,13 +1809,13 @@
 								"position": {
 									"type": "list<double>",
 									"value": [
-										"0;45.04410861479437,99.99382773199424%",
-										"0;-3.499756810240001,1.1110425303554579%"
+										"0;60.24986640771442,99.96927855741534%",
+										"0;-5.495027576029372,-2.478577154316112%"
 									]
 								},
 								"orientation": {
 									"type": "double",
-									"value": "0;0.6365935759634672"
+									"value": "0;-1.4202655463990623"
 								},
 								"scale": {
 									"type": "list<double>",
@@ -1838,13 +1838,13 @@
 				},
 				"$asuri": {
 					"type": "string",
-					"value": "/Formalisms/YAWL/YAWL/TaskToTask/49.instance"
+					"value": "/Formalisms/YAWL/YAWL/TaskToTask/53.instance"
 				},
 				"$segments": {
 					"type": "map<string,list<string>>",
 					"value": {
-						"/Formalisms/YAWL/YAWL.defaultIcons/XorJoinTaskIcon/43.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/49.instance": "M892,394L937,394.5",
-						"/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/49.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskIcon/34.instance": "M937.0748333026745,394.50083148114084L981.9996669135802,394.99999629903976"
+						"/Formalisms/YAWL/YAWL.defaultIcons/AndJoinTaskIcon/50.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/53.instance": "M867,394L927.6499998633974,392.49628099512245",
+						"/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink/53.instance--/Formalisms/YAWL/YAWL.defaultIcons/TaskIcon/34.instance": "M927.6495039969789,392.4962932893311L987.9990093572844,391.0000245613897"
 					}
 				},
 				"$type": "/Formalisms/YAWL/YAWL.defaultIcons/TaskToTaskLink"
@@ -1934,17 +1934,6 @@
 				},
 				"$type": "/Formalisms/YAWL/YAWL/XorSplitTask"
 			},
-			"43": {
-				"name": {
-					"type": "string",
-					"value": "T4"
-				},
-				"hightlight": {
-					"type": "boolean",
-					"value": false
-				},
-				"$type": "/Formalisms/YAWL/YAWL/XorJoinTask"
-			},
 			"44": {
 				"$type": "/Formalisms/YAWL/YAWL/ConditionToTask"
 			},
@@ -1954,13 +1943,24 @@
 			"46": {
 				"$type": "/Formalisms/YAWL/YAWL/TaskToTask"
 			},
-			"47": {
+			"50": {
+				"name": {
+					"type": "string",
+					"value": "T4"
+				},
+				"hightlight": {
+					"type": "boolean",
+					"value": false
+				},
+				"$type": "/Formalisms/YAWL/YAWL/AndJoinTask"
+			},
+			"51": {
 				"$type": "/Formalisms/YAWL/YAWL/TaskToTask"
 			},
-			"48": {
+			"52": {
 				"$type": "/Formalisms/YAWL/YAWL/TaskToTask"
 			},
-			"49": {
+			"53": {
 				"$type": "/Formalisms/YAWL/YAWL/TaskToTask"
 			}
 		},
@@ -1999,26 +1999,26 @@
 			},
 			{
 				"src": "30",
-				"dest": "47"
+				"dest": "51"
 			},
 			{
-				"src": "47",
-				"dest": "43"
+				"src": "51",
+				"dest": "50"
 			},
 			{
 				"src": "31",
-				"dest": "48"
+				"dest": "52"
 			},
 			{
-				"src": "48",
-				"dest": "43"
+				"src": "52",
+				"dest": "50"
 			},
 			{
-				"src": "43",
-				"dest": "49"
+				"src": "50",
+				"dest": "53"
 			},
 			{
-				"src": "49",
+				"src": "53",
 				"dest": "34"
 			}
 		],
