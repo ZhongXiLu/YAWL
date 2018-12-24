@@ -184,7 +184,8 @@
 		},
 		"edges": [],
 		"metamodels": [
-			"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons"
+			"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons",
+			"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons"
 		]
 	},
 	"asm": {
@@ -199,14 +200,15 @@
 			"1": {
 				"Action": {
 					"type": "code",
-					"value": "\nstop = False\n\n# Deadlock\nwith open(\"lola_output/deadlock_path.txt\", \"r\") as file:\n    tasks = set()\n    for line in file.read().splitlines():\n        if line != \"\":\n            tasks.add(line)\n        else:\n            stop = True\n\n    index = 1\n    for task in getAllNodes([\"/Formalisms/YAWL/YAWL/Task\", \"/Formalisms/YAWL/YAWL/XorJoinTask\", \"/Formalisms/YAWL/YAWL/XorSplitTask\", \"/Formalisms/YAWL/YAWL/AndJoinTask\", \"/Formalisms/YAWL/YAWL/AndSplitTask\", \"/Formalisms/YAWL/YAWL/OrJoinTask\", \"/Formalisms/YAWL/YAWL/XorJoinTask\"]):\n        if getAttr(\"name\", task) in tasks:\n            stop = True\n            setAttr(\"hightlight\", True, task)\n            setAttr(\"comment\", \"Deadlock: path #{}\".format(index), task)\n            index += 1\n\n# Dead transitions\nif not stop:\n    with open(\"lola_output/deadtransition_transition.txt\", \"r\") as file:\n        lines = file.read().splitlines()\n        if len(lines) > 0:\n            stop = True\n            for task in getAllNodes([\"/Formalisms/YAWL/YAWL/Task\", \"/Formalisms/YAWL/YAWL/XorJoinTask\", \"/Formalisms/YAWL/YAWL/XorSplitTask\", \"/Formalisms/YAWL/YAWL/AndJoinTask\", \"/Formalisms/YAWL/YAWL/AndSplitTask\", \"/Formalisms/YAWL/YAWL/OrJoinTask\", \"/Formalisms/YAWL/YAWL/XorJoinTask\"]):\n                if getAttr(\"name\", task) == lines[0]:\n                    setAttr(\"hightlight\", True, task)\n                    setAttr(\"comment\", \"Dead transition\", task)\n\n# Option to complete + proper completion\nif not stop:\n    with open(\"lola_output/completion_state.txt\", \"r\") as file:\n        lines = file.read().splitlines()\n        if len(lines) > 0 and lines[0] == \"NOSTATE\":\n            for condition in getAllNodes([\"/Formalisms/YAWL/YAWL/EndCondition\"]):\n                setAttr(\"hightlight\", True, condition)\n                setAttr(\"comment\", \"Cannot reach final marking\", condition)\n\nresult = True"
+					"value": "import json\n\nstop = False\n\n# Deadlock\nwith open(\"lola_output/deadlock_path.txt\", \"r\") as file:\n    tasks = set()\n    for line in file.read().splitlines():\n        if line != \"\":\n            tasks.add(line)\n        else:\n            stop = True\n\n    index = 1\n    for task in getAllNodes([\"/Formalisms/YAWL/YAWL/Task\", \"/Formalisms/YAWL/YAWL/XorJoinTask\", \"/Formalisms/YAWL/YAWL/XorSplitTask\", \"/Formalisms/YAWL/YAWL/AndJoinTask\", \"/Formalisms/YAWL/YAWL/AndSplitTask\", \"/Formalisms/YAWL/YAWL/OrJoinTask\", \"/Formalisms/YAWL/YAWL/XorJoinTask\"]):\n        if getAttr(\"name\", task) in tasks:\n            stop = True\n            setAttr(\"hightlight\", True, task)\n            setAttr(\"comment\", \"Deadlock: path #{}\".format(index), task)\n            index += 1\n\n# Dead transitions\nif not stop:\n    with open(\"lola_output/deadtransition_transition.txt\", \"r\") as file:\n        lines = file.read().splitlines()\n        if len(lines) > 0:\n            stop = True\n            for task in getAllNodes([\"/Formalisms/YAWL/YAWL/Task\", \"/Formalisms/YAWL/YAWL/XorJoinTask\", \"/Formalisms/YAWL/YAWL/XorSplitTask\", \"/Formalisms/YAWL/YAWL/AndJoinTask\", \"/Formalisms/YAWL/YAWL/AndSplitTask\", \"/Formalisms/YAWL/YAWL/OrJoinTask\", \"/Formalisms/YAWL/YAWL/XorJoinTask\"]):\n                if getAttr(\"name\", task) == lines[0]:\n                    setAttr(\"hightlight\", True, task)\n                    setAttr(\"comment\", \"Dead transition\", task)\n\n# Option to complete + proper completion\nif not stop:\n    with open(\"lola_output/completion.json\", \"r\") as file:\n        data = json.load(file)\n        if not data[\"analysis\"][\"result\"]:\n            for condition in getAllNodes([\"/Formalisms/YAWL/YAWL/EndCondition\"]):\n                setAttr(\"hightlight\", True, condition)\n                setAttr(\"comment\", \"Cannot reach final marking\", condition)\n\nresult = True"
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS"
 			}
 		},
 		"edges": [],
 		"metamodels": [
-			"/Formalisms/__Transformations__/TransformationRule/TransformationRule"
+			"/Formalisms/__Transformations__/TransformationRule/TransformationRule",
+			"/Formalisms/__Transformations__/Transformation/MoTif"
 		]
 	}
 }
