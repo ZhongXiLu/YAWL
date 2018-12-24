@@ -50357,11 +50357,7 @@
 		},
 		"edges": [],
 		"metamodels": [
-			"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons",
-			"/Formalisms/__Transformations__/TransformationRule/TransformationRule.defaultIcons",
-			"/Formalisms/YAWL/YAWL.defaultIcons.pattern",
-			"/Formalisms/PN/PN.defaultIcons.pattern",
-			"/Formalisms/GenericGraph/GenericGraph.defaultIcons.pattern"
+			"/Formalisms/__Transformations__/Transformation/MoTif.defaultIcons"
 		]
 	},
 	"asm": {
@@ -50987,11 +50983,7 @@
 			}
 		],
 		"metamodels": [
-			"/Formalisms/__Transformations__/Transformation/MoTif",
-			"/Formalisms/__Transformations__/TransformationRule/TransformationRule",
-			"/Formalisms/YAWL/YAWL.pattern",
-			"/Formalisms/PN/PN.pattern",
-			"/Formalisms/GenericGraph/GenericGraph.pattern"
+			"/Formalisms/__Transformations__/Transformation/MoTif"
 		]
 	}
 }
