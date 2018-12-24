@@ -10,6 +10,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"Condition": [
@@ -27,6 +32,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"TaskToCondition": [],
@@ -41,6 +51,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"AndJoinTask": [
@@ -53,6 +68,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"OrJoinTask": [
@@ -65,6 +85,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"XorSplitTask": [
@@ -77,6 +102,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"AndSplitTask": [
@@ -89,6 +119,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"OrSplitTask": [
@@ -101,6 +136,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"StartCondition": [
@@ -118,6 +158,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"EndCondition": [
@@ -135,6 +180,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"Join": [
@@ -147,6 +197,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"Split": [
@@ -159,6 +214,11 @@
 				"name": "hightlight",
 				"type": "boolean",
 				"default": false
+			},
+			{
+				"name": "comment",
+				"type": "string",
+				"default": ""
 			}
 		],
 		"TaskToTask": []
