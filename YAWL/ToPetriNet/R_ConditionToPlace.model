@@ -2267,7 +2267,7 @@
 			"9": {
 				"Action": {
 					"type": "code",
-					"value": "setAttr(\"pname\", getAttr(\"name\", \"0\"), \"1\")"
+					"value": "setAttr(\"pname\", getAttr(\"name\", \"0\"), \"1\")\nsetAttr(\"tokens\", getAttr(\"tokens\", \"0\"), \"1\")"
 				},
 				"$type": "/Formalisms/__Transformations__/TransformationRule/TransformationRule/RHS"
 			},
